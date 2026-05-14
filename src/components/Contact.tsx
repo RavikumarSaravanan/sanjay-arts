@@ -162,6 +162,28 @@ export default function Contact() {
                 </svg>
                 Send via WhatsApp
               </button>
+
+              {/* Quotes Section */}
+              <div className="mt-12 pt-8 border-t border-black/5 space-y-6">
+                <div className="space-y-2">
+                  <p className="text-sm italic text-text-main/70 leading-relaxed">
+                    "Your event isn't just an occasion, it's a memory waiting to be captured. We turn those moments into timeless stories."
+                  </p>
+                  <p className="text-xs text-accent font-medium">— Sanjay Arts</p>
+                </div>
+                <div className="space-y-2">
+                  <p className="text-sm italic text-text-main/70 leading-relaxed">
+                    "Every celebration tells a story. We ensure yours is told beautifully, frame by frame, moment by moment."
+                  </p>
+                  <p className="text-xs text-accent font-medium">— Our Commitment</p>
+                </div>
+                <div className="space-y-2">
+                  <p className="text-sm italic text-text-main/70 leading-relaxed">
+                    "Excellence isn't an act but a habit. We deliver cinematic quality in every project, every single time."
+                  </p>
+                  <p className="text-xs text-accent font-medium">— Sanjay Arts Team</p>
+                </div>
+              </div>
             </form>
           </motion.div>
         </div>
